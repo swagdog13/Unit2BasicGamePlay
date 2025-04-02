@@ -710,6 +710,9 @@ MonoBehaviour:
   speed: 10
   xRange: 10
   projectilePrefab: {fileID: 9174844057397483375, guid: ec0c74c91dbe1bf4f8369316b3c60b63, type: 3}
+  zMin: -26
+  zMax: -11
+  verticalInput: 0
 --- !u!4 &1021419351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
@@ -875,6 +878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dog_BullDog_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6618047089079779564, guid: c09bf77063ba7584babc1f08387f86e6, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7112299993393677785, guid: c09bf77063ba7584babc1f08387f86e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.166643
@@ -933,6 +940,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 686452757}
     m_Modifications:
+    - target: {fileID: 4728337339617283529, guid: 20cf77ac4fbe6774085713fc405e2a01, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6368321163876518738, guid: 20cf77ac4fbe6774085713fc405e2a01, type: 3}
       propertyPath: m_Name
       value: Dog_BorderCollie_01
@@ -947,7 +958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8128263513497548727, guid: 20cf77ac4fbe6774085713fc405e2a01, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.536747
+      value: 18.47
       objectReference: {fileID: 0}
     - target: {fileID: 8128263513497548727, guid: 20cf77ac4fbe6774085713fc405e2a01, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1057,6 +1068,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 686452757}
     m_Modifications:
+    - target: {fileID: 509823881122748229, guid: c1eb21ad01f608d4dbfb0f0ea8753dbb, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2197237253502392609, guid: c1eb21ad01f608d4dbfb0f0ea8753dbb, type: 3}
       propertyPath: m_Name
       value: Dog_BullTerrier_01
