@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class DetectColllisions : MonoBehaviour
 {
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -19,11 +20,12 @@ public class DetectColllisions : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Game Over!");
+            gameManager.AddLives(-1);
             Destroy(gameObject);
         }
-        else
+        else if (other.CompareTag("Animal"))
         {
+            gameManager.AddScore(5);
             Destroy(gameObject);
             Destroy(other.gameObject);
         }
